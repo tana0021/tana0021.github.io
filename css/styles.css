@@ -523,6 +523,7 @@ form {
         width: 100%;
         margin-top: 2px;
         /* Half the height */
+        /* Half the height */
         margin-left: 1px;
         /* Half the width */
         user-select: none;
@@ -542,7 +543,7 @@ form {
         user-select: none;
         padding-top: 18px;
         padding-left: 7px;
-    
+        transform: scale(1.08)
     }
     
     .enter {
