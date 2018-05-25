@@ -503,7 +503,10 @@ input[type=range]::-webkit-slider-thumb{
     user-select: none;
     left: -40px;
     letter-spacing: 3vw;
-    animation: opacity 1s forwards, position4 0.5s forwards;
+    -webkit-animation: opacity 1s forwards, position4 0.5s forwards;
+     -ms-animation: opacity 1s forwards, position4 0.5s forwards;
+     -o-animation: opacity 1s forwards, position4 0.5s forwards;
+     animation: opacity 1s forwards, position4 0.5s forwards;
     animation-delay: 0.5s;
     margin-left: 48px;
     text-align: center;
