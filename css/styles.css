@@ -600,6 +600,7 @@ form {
 /* ------------------------------------------- about page ---------------------------------------------------- */
 
 .hello2{
+    z-index: 2;
     position: absolute; 
     top: -100px;
 
@@ -607,6 +608,7 @@ form {
 }
 
 .aboutme2{
+    z-index: 2;
     position: absolute; 
     top: -100px;
 }
@@ -846,7 +848,7 @@ clear: both;
 }
 
 .hello {
-    z-index: 4;
+    z-index: 2;
     position: fixed;
     opacity: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -864,7 +866,7 @@ clear: both;
 }
 
 .aboutme {
-    z-index: 4;
+    z-index: 2;
     opacity: 0;
     position: fixed;
     display: block;
@@ -884,6 +886,7 @@ clear: both;
 @media only screen and (max-width: 1520px) {
     .aboutme {
         opacity: 0;
+        z-index: 2;
         position: fixed;
         font-family: 'Source Sans Pro', sans-serif;
         color: #FF9600;
@@ -899,6 +902,7 @@ clear: both;
     }
     .hello {
         position: fixed;
+        z-index: 2;
         opacity: 0;
         width: 400px;
         font-family: 'Source Sans Pro', sans-serif;
@@ -1016,6 +1020,7 @@ clear: both;
     
     
     .hello2 {
+        z-index: 2;
         position: fixed;
         opacity: 0;
         color: #ff9600;
@@ -1043,6 +1048,7 @@ clear: both;
 }
 
 .aboutme2 {
+    z-index: 2;
     position: fixed; 
      opacity: 0;
         color: #ff9600;
@@ -1064,6 +1070,7 @@ clear: both;
 @media only screen and (max-width: 540px) {
     
   .hello2 {
+      z-index: 2;
         position: fixed;
         opacity: 0;
         color: #ff9600;
@@ -1084,6 +1091,7 @@ clear: both;
 }
     
     .aboutme2 {
+        z-index: 2;
     position: fixed; 
      opacity: 0;
         color: #ff9600;
@@ -1109,6 +1117,7 @@ clear: both;
 @media only screen and (max-width: 400px) {
     
   .hello2 {
+      z-index: 2;
         position: fixed;
         opacity: 0;
         color: #ff9600;
@@ -1131,6 +1140,7 @@ clear: both;
 }
     
     .aboutme2 {
+        z-index: 2;
     position: fixed; 
      opacity: 0;
         color: #ff9600;
