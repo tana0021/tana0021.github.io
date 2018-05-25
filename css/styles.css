@@ -477,6 +477,7 @@ form {
 }
 
 .enter:hover {
+    opacity: 0;
     width: 126px;
     border: solid;
     border-color: #ff9600;
@@ -490,7 +491,8 @@ form {
     /* Half the height */
     margin-left: -92px;
     /* Half the width */
-   
+    animation: opacity 0.3s forwards;
+    animation-delay: 1.5s;
 }
 
 @keyframes opacity {
