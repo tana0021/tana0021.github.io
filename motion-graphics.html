@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+    <title> Test 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    
+
+
+    <title>Katina Porftolio</title>
+</head>
+
+<body>
+<a href="work.html" style="text-decoration:none"><div class="back">BACK</div></a>
+<div class="backbg"></div>
+
+<div class="motiongraphics">MOTION GRAPHICS</div>
+<div class="blackscreen"></div>
+
+<!----------------videos--------------------->
+<div id="video-container">
+ <video id="video" poster="img/posterimg.png" height="240" onclick="playPause(); changeImage4()";>
+  <source id="mp4"
+    src="mp4/motion-graphics-resume.mp4" 
+    type="video/mp4">
+  <source id="webm"
+    src="video/video1.webm"
+    type="video/webm">
+</video>
+
+<!---------------controls-------------------->
+
+<div id="controls-container">
+    <div id="seek-bar">
+        <div id="fill"></div>
+    </div>
+    <div id="controls">
+        <table border="0">
+            <tr>
+                <td width="55%">
+                    <div id="currentTime">00:00 / 00:00</div>
+                </td>
+
+                <td>
+                    <input type="range" id="volume" min="0" max="1" value="0.40" step="0.20" onchange="changeVolume()" />
+                </td>
+            </tr>
+        </table>
+  <button id="play"><img src="img/play.png" id="toChange" class="play-icon"></button>
+  <button id="mute"><img src="img/volume.png" id="speaker" class="volume-icon" onclick="changeImage2()" ></button>
+  
+</div>
+</div>
+</div>
+
+
+<!------------------thumbnails-------------->
+<div class="thumbnail-container">
+<div id="videos">
+  <button id = "thumbnail1"
+    data-mp4 = "mp4/motion-graphics-resume.mp4"
+    data-webm = "mp4/motion-graphics-resume.webm"
+  ><img src="img/thumbnail4.png" id="thumbnailpic" class="showSingle" target="1" onClick="changeImage3(); changeText2()" ></button>
+  <button id = "thumbnail2"
+    data-mp4 = "mp4/digital-signage.mp4"
+    data-webm = "mp4/digital-signage.webm"
+  ><img src="img/thumbnail3.png" id="thumbnailpic2"  class="showSingle" target="2" onClick="changeImage3(); changeText()"></button>
+</div>
+</div>
+
+<div class="targetDiv" id="div1">
+    <p class="title3"> VISUAL RESUME</p>
+<hr class="hr">
+<p class="description3">A motion graphics video showing my skills as a multimedia designer.<br><br> Music: Vivid Space 2 - Daniel Gunnarsson / www.epidemicsound.com </p>
+<p class="date3">April 25, 2018</p>
+</div>
+<div class="targetDiv" id="div2">
+    <p class="title4"> DIGITAL SIGNAGE </p>
+<hr class="hr2">
+<p class="description4">A mock digital signage ad created for a hotel.<br> 
+<p class="date4">December 4, 2017</p>
+</div>
+</body>
+ 
+</html>

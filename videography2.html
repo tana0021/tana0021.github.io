@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+    <title> Test 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    
+
+
+    <title>Katina Porftolio</title>
+</head>
+
+<body>
+<a href="work.html" style="text-decoration:none"><div class="back">BACK</div></a>
+<div class="backbg"></div>
+
+<div class="videography">VIDEOGRAPHY</div>
+<div class="blackscreen"></div>
+
+<!----------------videos--------------------->
+<div id="video-container">
+ <video id="video" poster="img/posterimg.png" height="240" onclick="playPause(); changeImage4()";>
+  <source id="mp4"
+    src="mp4/Algonquin.mp4" 
+    type="video/mp4">
+  <source id="webm"
+    src="mp4/Algonquin.webm"
+    type="video/webm">
+</video>
+
+<!---------------controls-------------------->
+
+<div id="controls-container">
+    <div id="seek-bar">
+        <div id="fill"></div>
+    </div>
+    <div id="controls">
+
+                    <div id="currentTime">00:00 / 00:00</div>
+        
+                    <input type="range" id="volume" min="0" max="1" value="0.40" step="0.20" onchange="changeVolume()" />
+            
+  <button id="play"><img src="../katina-portfolio/img/play.png" id="toChange" class="play-icon"></button>
+  <button id="mute"><img src="img/volume.png" id="speaker" class="volume-icon" alt="volume" onclick="changeImage2();" >
+  </button>
+  
+</div>
+</div>
+</div>
+
+
+<!------------------thumbnails-------------->
+<div class="thumbnail-container">
+<div id="videos">
+  <button id = "thumbnail1"
+    data-mp4 = "mp4/Algonquin.mp4"
+    data-webm = "mp4/Algonquin.webm"
+  ><img src="img/thumbnail1.png" id="thumbnailpic" class="showSingle" target="1" onclick="changeImage3('toChange'); changeText2();" ></button>
+  <button id = "thumbnail2"
+    data-mp4 = "mp4/HerBraids.mp4"
+    data-webm = "mp4/HerBraids.webm"
+  ><img src="img/thumbnail2.png" id="thumbnailpic2"  class="showSingle" target="2" onclick="changeImage3(); changeText();"></button>
+</div>
+</div>
+
+<div class="targetDiv" id="div1">
+    <p class="title"> ALGONQUIN </p>
+<hr class="hr">
+<p class="description1">A brief look inside Algonquin College where students give their opinion <br> about what they like about the school.<br><br> Music: Highwire - Orda Norte / www.epidemicsound.com </p>
+<p class="date">May 5, 2018</p>
+</div>
+<div class="targetDiv" id="div2">
+    <p class="title2"> HER BRAIDS </p>
+<hr class="hr2">
+<p class="description2">A short promotional video of 'Her Braids', a business that is raising awareness <br> about the need for clean drinking water in First Nations communities across <br> Canada.  <br><br>Music: Spectrum - Johan Svensson / www.epidemicsound.com </p>
+<p class="date2">April 16, 2017</p>
+</div>
+</body>
+ 
+</html>

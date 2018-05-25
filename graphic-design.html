@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+    <title> Test 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    
+
+
+    <title>Katina Porftolio</title>
+</head>
+
+<body>
+<a href="work.html" style="text-decoration:none"><div class="back">BACK</div></a>
+<div class="backbg"></div>
+
+<div class="motiongraphics">GRAPHIC DESIGN</div>
+<div class="blackscreen2"></div>
+    
+  <div class="column">
+    <img class="img1" src="img/wagoshfinal.png" onclick="openModal();currentSlide(1)">
+    <span class="caption1">LOW POLY</span>
+    <img class="img2" src="img/Animal-Icons.png" onclick="openModal();currentSlide(2)">
+    <span class="caption2">ANIMAL ICONS</span>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="img/wagoshfinal.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="img/animal-icons2.png" style="width: 100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption3"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+
+  </div>
+</div>
+  
+
+
+
+</body>
+ 
+</html>
