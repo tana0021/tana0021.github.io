@@ -477,7 +477,6 @@ form {
 }
 
 .enter:hover {
-    opacity: 0;
     width: 126px;
     border: solid;
     border-color: #ff9600;
