@@ -38,7 +38,22 @@ body {
     height: 100%;
     margin: 0;
     background-color: #f2f2f2;
-    background-image: url('../img/pic.png')
+   
+}
+
+.bg {
+    position: absolute; 
+    width: 1500px; 
+    /* The image used */
+    background-image: url("../tana0021.github.io/img/pic.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -484,7 +499,7 @@ form {
     border-width: 4px;
     position: fixed;
     font-size: 25pt;
-    top: 50%;
+    top: 485px;
     left: 50%;
     height: 60px;
     margin-top: 237px;
@@ -833,7 +848,6 @@ ul li a:active {
 
 .pic {
     position: absolute;
-    width: 80.8%;
     z-index: -3;
     animation: position3 1s ease forwards, opacity2 0.4s ease forwards;
     animation-delay: 0.3s;
@@ -841,7 +855,6 @@ ul li a:active {
     left: 410px;
      transform: scale(1);
 transition: all 1s ease; 
-     height: 100%;
 }
 
 
