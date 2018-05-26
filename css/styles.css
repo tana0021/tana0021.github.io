@@ -26,6 +26,7 @@ html {
     height: 0%;
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
 }
 
 *,
@@ -41,6 +42,14 @@ body {
    
 }
 
+@keyframes bodybg {
+    from {top: 200px;
+    
+    }
+    to {top: 0px;}
+    
+}
+
 .bg {
     position: absolute; 
     width: 100%; 
@@ -54,7 +63,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: position 1s forwards ease;
+    animation: opacity 1.3s forwards, bodybg 1.1s forwards ease;
+    animation-delay: 0s, 0s
 }
 
 
