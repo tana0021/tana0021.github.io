@@ -988,17 +988,22 @@ input[type=range]::-webkit-slider-thumb{
     text-align: center;
 }
 .img1 {
+    position: relative;
+    z-index: 5;  
     transition: 0.3s all ease;
     height: 300px;
     margin: 10px;
 }
 
 .img1:hover {
+      position: relative;
+    z-index: 5;  
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     
 }
 .img2 {
-
+  position: relative;
+    z-index: 5;  
     transition: 0.3s all ease;
     height: 300px;
     margin: 10px;
@@ -1013,6 +1018,7 @@ input[type=range]::-webkit-slider-thumb{
  .caption1 {
      display: inline-block;
      position: relative;
+     z-index: 5;
      left: -160px;
     float: left;
     width: 100%;
@@ -1022,6 +1028,7 @@ input[type=range]::-webkit-slider-thumb{
 }
 
  .caption2 {
+     z-index: 5;
      display: inline-block;
      position: relative;
     float: left;
@@ -1101,6 +1108,7 @@ input[type=range]::-webkit-slider-thumb{
 
 
 .row3 {
+    z-index: 5;
     position: relative;
     top: -470px;
     left: 40px;
