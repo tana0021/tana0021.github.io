@@ -830,8 +830,8 @@ ul li a:active {
 
 
 .pic {
-    position: relative;
-    height: 100%;
+    position: absolute;
+    width: 90%;
     z-index: -3;
     height: 62em;
     animation: position3 1s ease forwards, opacity2 0.4s ease forwards;
@@ -839,7 +839,8 @@ ul li a:active {
     opacity: 0;
     left: 410px;
      transform: scale(1);
-transition: all 1s ease;  
+transition: all 1s ease; 
+     height: 100%;
 }
 
 
@@ -1017,7 +1018,6 @@ clear: both;
     }
     .pic {
         position: relative;
-        height: 60em;
         opacity: 0;
         clear: both;
         float: right;
