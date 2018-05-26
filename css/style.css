@@ -630,9 +630,9 @@ input[type=range]::-webkit-slider-thumb{
     
     #videos {
         width: 100%;
-        position: fixed;
-        right: 90px;
-        top: 950px;
+        position: relative;
+        right: 290px;
+        top: 560px;
         
     }
     
@@ -681,7 +681,8 @@ input[type=range]::-webkit-slider-thumb{
         width: 100%;
         position: fixed;
         right: 90px;
-        top: 990px;
+        top:920px;
+     height: 150px;
         
     }
 }
@@ -734,6 +735,15 @@ input[type=range]::-webkit-slider-thumb{
     top: -17px;
     cursor: pointer;
 }
+    
+    #videos {
+        width: 100%;
+        position: relative;
+        right: 290px;
+        top: 760px;
+     height: 150px;
+        
+    }
     
 }
 
@@ -957,6 +967,53 @@ input[type=range]::-webkit-slider-thumb{
     letter-spacing: 1px; 
 }
     
+    .thumbnail-container {
+    width: 100%;
+        display:block;
+
+}
+    
+    #videos { 
+    position: absolute;
+    z-index: 19;
+        left: 0px;
+    height: 350px; 
+
+    width: 100%;  
+    margin-top: -21px;
+    margin-left: 0px;   
+}
+    
+    
+    #thumbnailpic {
+        height: 100px;
+         position: relative;
+        left: 0px;
+        margin: 0 auto;
+    
+    }
+    
+    #thumbnailpic:hover {
+        height: 100px;
+         position: relative;
+        left: 0px;
+        margin: 0 auto;
+    }
+    
+    #thumbnailpic2 {
+        position: relative;
+        height: 100px;
+        margin: 0 auto;
+        left: 0px;
+    }
+    
+    #thumbnailpic2:hover {
+        position: relative;
+        height: 100px;
+        margin: 0 auto;
+        left: 0px;
+        
+    }
 }
 
 /*-----------graphic design --------*/
