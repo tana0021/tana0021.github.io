@@ -43,9 +43,9 @@ body {
 
 .bg {
     position: absolute; 
-    width: 1500px; 
+    width: 100%; 
     /* The image used */
-    background-image: url("../tana0021.github.io/img/pic.png");
+    background-image: url('../img/aboutme.png');
 
     /* Full height */
     height: 100%; 
@@ -54,6 +54,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: position 1s forwards ease;
 }
 
 
