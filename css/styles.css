@@ -186,9 +186,8 @@ display: block;
     height: 200px;
     width: 55%;
     margin-right: -40px;
-    top: 00px;
-    animation: position6 1.3s ease forwards, opacity 1s forwards;
-    animation-delay: 0s, 0.3s;
+    top: -80px;
+    animation: position 1s ease forwards, opacity 1s forwards;
     text-align: center;
     float: right;
    
@@ -206,13 +205,15 @@ display: block;
     height: 10px;
     width: 40%;
     margin-top: 0px;
+    right: 3%;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
     width: 600px;
-    font-size: 1.8vw;
-    font-size: 32px;
+    font-size: 27vw;
+    padding-right: 40%;
+    font-size: 5vw;
     user-select: none;
-    letter-spacing: 25px;
+    letter-spacing: 2vw;
     text-align: center;
 }
 
@@ -223,13 +224,12 @@ display: block;
     height: 10px;
     width: 40%;
     font-family: cursive;
-    margin-top: 50px;
+    margin-top: 130px;
     margin-left: -7px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
     width: 600px;
-    font-size: 1.8vw;
-    font-size: 14px;
+    font-size: 19px;
     user-select: none;
     letter-spacing: 4.4px;
     text-align: center;
@@ -247,9 +247,9 @@ form {
         position: absolute; 
         left: 46%;
         width: 600px;
-        top: 500px;
+        top: 300px;
     background: transparent; 
-    animation: position7 1.3s forwards ease, opacity 0.5s forwards; 
+    animation: position 1s forwards ease, opacity 1s forwards; 
     animation-delay: 0s;
     }
 
@@ -914,7 +914,7 @@ clear: both;
     font-size: 15pt;
     width: 32em;
     margin-left: 420px;
-    top: 70%;
+    top: 650px;
     padding-left: 25%;
         padding-right: 25%;
     padding-bottom: 70px;
