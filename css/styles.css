@@ -646,8 +646,7 @@ form {
 /* ------------------------------------------- about page ---------------------------------------------------- */
 
 .hello2{
-    display: none;
-    z-index: 2;
+    z-index: -5;
     position: absolute; 
     top: -100px;
 
@@ -655,8 +654,7 @@ form {
 }
 
 .aboutme2{
-    display: none;
-    z-index: 2;
+    z-index: -5;
     position: absolute; 
     top: -100px;
 }
@@ -1058,7 +1056,6 @@ clear: both;
     
     
     .hello2 {
-        z-index: 2;
         position: fixed;
         opacity: 0;
         color: #ff9600;
@@ -1066,7 +1063,7 @@ clear: both;
         animation: opacity 1s forwards, queryposition2 1s forwards;
         padding-left: 25%;
         padding-right: 25%;
-        margin-right: 70px;
+        margin-right: -110px;
         font-size: 10vw;
         letter-spacing: 5vw;
         animation-delay: 0.3s;
@@ -1086,9 +1083,9 @@ clear: both;
 }
 
 .aboutme2 {
-    z-index: 2;
+    z-index: -2;
     position: fixed; 
-     opacity: 0;
+     opacity: 1;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         animation: opacity 1s forwards, queryposition3 1s forwards;
@@ -1699,7 +1696,7 @@ display: block;
     height: 100%; /* 100% Full-height */
     width: 200px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 16; /* Stay on top */
     top: 90px;
     left: 00px;
     background-color: #f2f2f2; /* Black*/
