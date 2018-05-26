@@ -1044,23 +1044,15 @@ clear: both;
         animation-delay: 0.1s;
         display: block;
     }
-    .pic {
-        position: relative;
-        opacity: 0;
-        clear: both;
-        float: right;
-        left: 300px;
-        animation: queryposition 1s ease forwards, opacity2 0.4s ease forwards;
-        animation-delay: 0.3s;
-    }
     
     
     .hello2 {
         position: fixed;
         opacity: 0;
         color: #ff9600;
+        top: 350px;
         font-family: 'Source Sans Pro', sans-serif;
-        animation: opacity 1s forwards, queryposition2 1s forwards;
+        animation: opacity 1s forwards;
         padding-left: 25%;
         padding-right: 25%;
         margin-right: -110px;
@@ -1088,7 +1080,8 @@ clear: both;
      opacity: 1;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-        animation: opacity 1s forwards, queryposition3 1s forwards;
+    top: 650px;
+        animation: opacity 1s forwards;
         font-size:calc(11px + 0.9vw);
         animation-delay: 0.3s;
         height: 30px;
@@ -1110,7 +1103,7 @@ clear: both;
         opacity: 0;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-        -webkit-animation: opacity 1s forwards, queryposition2 1s forwards;
+        -webkit-animation: opacity 1s forwards;
         padding-left: 25%;
         padding-right: 15%;
         margin-right: 70px;
@@ -1131,7 +1124,7 @@ clear: both;
      opacity: 0;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-        animation: opacity 1s forwards, queryposition3 1s forwards;
+        animation: opacity 1s forwards;
         font-size:calc(12px + 1vw);
         animation-delay: 0.3s;
         height: 30vw;
@@ -1157,7 +1150,7 @@ clear: both;
         opacity: 0;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-        animation: opacity 1s forwards, queryposition2 1s forwards;
+        animation: opacity 1s forwards;
         padding-left: 12%;
         padding-right: 15%;
       width: 54vmin;
