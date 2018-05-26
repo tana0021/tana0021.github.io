@@ -39,6 +39,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: #f2f2f2;
+    overflow-x: auto;
    
 }
 
@@ -1148,6 +1149,7 @@ clear: both;
       z-index: 2;
         position: fixed;
         opacity: 0;
+      top: 200px;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         animation: opacity 1s forwards;
@@ -1173,7 +1175,8 @@ clear: both;
      opacity: 0;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-        animation: opacity 1s forwards, queryposition3 1s forwards;
+        animation: opacity 1s forwards;
+        top: 300px;
         font-size:calc(12px + 1vw);
         animation-delay: 0.3s;
         height: 30vw;
