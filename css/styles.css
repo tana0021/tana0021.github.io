@@ -650,12 +650,12 @@ form {
 
 .ghost {
     position: relative;
-    top: 460px;
+    top: 10px;
     height: 200px;
     width: 100%;
 }
 .hello2{
-    z-index: 1;
+    z-index: 2;
     position: absolute; 
     top: -100px;
 
@@ -843,10 +843,10 @@ ul li a:active {
 
 @keyframes position5 {
     from {
-        top: 700px;
+        top: 530px;
     }
     to {
-        top: 670px;
+        top: 500px;
     }
 }
 
@@ -885,7 +885,7 @@ clear: both;
 
 .hello {
     z-index: 2;
-    position: fixed;
+    position: relative;
     opacity: 0;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -904,7 +904,7 @@ clear: both;
 .aboutme {
     z-index: 2;
     opacity: 0;
-    position: fixed;
+    position: relative;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -912,16 +912,26 @@ clear: both;
     font-size: 15pt;
     width: 32em;
     margin-left: 420px;
-    top: 650px;
+    top: 400px;
     padding-left: 25%;
         padding-right: 25%;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     animation: position 1s forwards ease, opacity 1s forwards;
     animation-delay: 0s;
 }
 
+.bg {
+        position: fixed;
+    top: -3px;
+    }
+
 @media only screen and (max-width: 1520px) {
+    
+    .bg {
+        position: fixed;
+    }
     .aboutme {
+        position: relative;
         opacity: 0;
         z-index: 2;
         font-family: 'Source Sans Pro', sans-serif;
@@ -931,12 +941,12 @@ clear: both;
         width: 35%;
         display: inline-block;
         margin-left: 332px;
-         
         animation: opacity 1s forwards, position5 1s forwards;
         padding-bottom: 70px;
         animation-delay: 0.3s;
     }
     .hello {
+        position: relative;
         z-index: 2;
         opacity: 0;
         width: 400px;
@@ -956,6 +966,10 @@ clear: both;
 }
 
 @media only screen and (max-width: 1024px) {
+    
+    .bg {
+        position: fixed;
+    }
     .navdiv {
         display: none;
         opacity: 0;
@@ -1058,6 +1072,7 @@ clear: both;
         animation-delay: 0s;
         text-align: center;
         height: 120px;
+        position: relative;
     
      
 }
@@ -1076,16 +1091,17 @@ clear: both;
      opacity: 1;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
-    top: 650px;
+    top: 450px;
         animation: opacity 1s forwards;
         font-size:calc(11px + 0.9vw);
         animation-delay: 0s;
-        height: 380px;
+        height: 280px;
        width: 50%;
     padding-left: 25%;
         padding-right: 45%;
     margin-right: 300px;
     text-align: justify;
+    position: relative;
     
 } 
     
@@ -1097,7 +1113,7 @@ clear: both;
       z-index: 2;
         position: relative;
         opacity: 0;
-      top: 0px;
+      top: 200px;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         -webkit-animation: opacity 1s forwards;
@@ -1187,7 +1203,7 @@ height: 4vw;
     text-align: justify;
         word-wrap: break-word;
     white-space: normal;
-        height: 44vw;;
+        height: 84vw;;
         display: block;
         flex-wrap: wrap;
     

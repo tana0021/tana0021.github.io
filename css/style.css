@@ -1244,7 +1244,7 @@ input[type=range]::-webkit-slider-thumb{
 .modal {
   display: none;
   position: fixed;
-  z-index: 19;
+  z-index: 119;
   padding-top: 70px;
   left: 0;
   top: 0;
