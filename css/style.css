@@ -1,7 +1,6 @@
 body {
     
     margin:0;
-    overflow-x: auto;
 }
 
 
@@ -11,7 +10,7 @@ body {
     position: relative; 
     height: 400px;
     background-color: #f2f2f2;
-    z-index: -1;
+    z-index: 0;
     top: 169px;
 }
 .back  {
@@ -977,7 +976,7 @@ input[type=range]::-webkit-slider-thumb{
     position: relative; 
     height: 650px;
     background-color: #f2f2f2;
-    z-index: -1;
+    z-index: 1;
     top: 169px;
 }
 
@@ -1060,7 +1059,7 @@ input[type=range]::-webkit-slider-thumb{
     position: relative; 
     height: 716px;
     background-color: #f2f2f2;
-    z-index: -1;
+    z-index: 1;
     top: 169px;
 }
 
@@ -1269,7 +1268,7 @@ input[type=range]::-webkit-slider-thumb{
     position: relative; 
     height: 650px;
     background-color: #f2f2f2;
-    z-index: -1;
+    z-index: 1;
     top: 169px;
 }
 

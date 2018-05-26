@@ -26,7 +26,6 @@ html {
     height: 0%;
     margin: 0;
     padding: 0;
-    overflow-y: scroll;
 }
 
 *,
@@ -39,7 +38,6 @@ body {
     height: 100%;
     margin: 0;
     background-color: #f2f2f2;
-    overflow-x: auto;
    
 }
 
@@ -182,7 +180,7 @@ display: block;
 
 .form {
     position:relative;
-    z-index: -2;
+    z-index: 2;
     opacity: 0;
     height: 200px;
     width: 55%;
@@ -219,7 +217,7 @@ display: block;
 }
 
 .email {
-    z-index: 3;
+    z-index: 1;
     position: relative;
     opacity: 1;
     height: 10px;
@@ -289,15 +287,17 @@ form {
 @media only screen and (max-width: 1024px) {
     .form {
     opacity: 0;
-    height: 700px;
+    height: 100px;
     width: 55%;
-    position:relative;
+    position: relative;
     margin-right: 140px;
-    top: 00px;
+    top: 300px;
     animation: position6 1.2s ease forwards, opacity 1s forwards;
     animation-delay: 0.3s;
     text-align: center;
     float: right;
+          display: flex;
+  flex-wrap: wrap;
    
 }
     
@@ -319,7 +319,9 @@ form {
     
     form {
     opacity: 0;
-        position: absolute; 
+        position: absolute;
+          display: flex;
+  flex-wrap: wrap;
         left: 16%;
         width: 70%;
         top: 500px;
@@ -647,7 +649,7 @@ form {
 /* ------------------------------------------- about page ---------------------------------------------------- */
 
 .hello2{
-    z-index: -5;
+    z-index: 1;
     position: absolute; 
     top: -100px;
 
@@ -655,7 +657,7 @@ form {
 }
 
 .aboutme2{
-    z-index: -5;
+    z-index: 1;
     position: absolute; 
     top: -100px;
 }
@@ -860,21 +862,11 @@ ul li a:active {
 }
 
 
-.pic {
-    position: absolute;
-    z-index: -3;
-    animation: position3 1s ease forwards, opacity2 0.4s ease forwards;
-    animation-delay: 0.3s;
-    opacity: 0;
-    left: 410px;
-     transform: scale(1);
-transition: all 1s ease; 
-}
-
 
 
 
 .hamburger {
+    position: relative;
     opacity: 0;
     
 clear: both;
@@ -1059,7 +1051,7 @@ clear: both;
         margin-right: -110px;
         font-size: 10vw;
         letter-spacing: 5vw;
-        animation-delay: 0.3s;
+        animation-delay: 0s;
         text-align: center;
         height: 120px;
     
@@ -1076,7 +1068,7 @@ clear: both;
 }
 
 .aboutme2 {
-    z-index: -2;
+    z-index: 2;
     position: fixed; 
      opacity: 1;
         color: #ff9600;
@@ -1084,7 +1076,7 @@ clear: both;
     top: 650px;
         animation: opacity 1s forwards;
         font-size:calc(11px + 0.9vw);
-        animation-delay: 0.3s;
+        animation-delay: 0s;
         height: 30px;
        width: 50%;
     padding-left: 25%;
@@ -1153,9 +1145,9 @@ clear: both;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         animation: opacity 1s forwards;
-        padding-left: 12%;
+        padding-left: 18%;
         padding-right: 15%;
-      width: 54vmin;
+      width: 54vw;
         font-size: 10vw;
         letter-spacing: 30px;
         animation-delay: 0.3s;
@@ -1179,10 +1171,10 @@ clear: both;
         top: 300px;
         font-size:calc(12px + 1vw);
         animation-delay: 0.3s;
-        height: 30vw;
-       width: 200px;
-    padding-left: 12%;
-        padding-right: 25%;
+        height: 70vw;
+       width: 70vw;
+    padding-left: 15%;
+        padding-right: 24%;
     text-align: justify;
         word-wrap: break-word;
     white-space: normal;
@@ -1689,6 +1681,7 @@ display: block;
 
 .sidenav {
     display: none;
+    z-index: 19;
     height: 100%; /* 100% Full-height */
     width: 200px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -1760,7 +1753,7 @@ display: block;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 19; /* Stay on top */
     top: 90px;
     left: 00px;
     background-color: #f2f2f2; /* Black*/
