@@ -14,7 +14,7 @@ body {
     top: 169px;
 }
 .back  {
-    z-index: 19;
+    z-index: 29;
     top: 10px;
     width: 100%;
     height: 20px;
@@ -30,7 +30,7 @@ body {
 }
 
 .backbg {
-    z-index: 18;
+    z-index: 28;
     position: fixed;
     height: 40px;
     background-color: white;

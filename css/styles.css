@@ -69,6 +69,7 @@ display: block;
 }
 
 .bg {
+    z-index: 0;
     position: absolute; 
     width: 100%; 
     /* The image used */
@@ -79,7 +80,6 @@ display: block;
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     animation:  opacity 0.7s ease forwards;
     animation-delay: 0s, 0s
@@ -648,7 +648,12 @@ form {
 
 /* ------------------------------------------- about page ---------------------------------------------------- */
 
-
+.ghost {
+    position: relative;
+    top: 460px;
+    height: 200px;
+    width: 100%;
+}
 .hello2{
     z-index: 1;
     position: absolute; 
@@ -1130,6 +1135,10 @@ clear: both;
     
 } 
     
+    .bg {
+        position: fixed;
+    }
+    
 
   
     
@@ -1141,7 +1150,7 @@ clear: both;
       z-index: 2;
         position: relative;
         opacity: 0;
-      top: -140px;
+      top: 190px;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         animation: opacity 1s forwards;
@@ -1168,7 +1177,7 @@ height: 4vw;
         color: #ff9600;
         font-family: 'Source Sans Pro', sans-serif;
         animation: opacity 1s forwards;
-        top: -10px;
+        top: 310px;
         font-size:calc(12px + 1vw);
         animation-delay: 0.3s;
         height: 70vw;
@@ -1184,6 +1193,9 @@ height: 4vw;
     
 } 
   
+    .bg {
+        position: fixed;
+    }
     
 }
 
