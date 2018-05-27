@@ -20,6 +20,7 @@
     
     <div class="mask"><a href="about.html"><img src="img/logo.png" class="logoabout"></a>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="hamburger" src="img/hamburger-button.png"></span>
+    <div id="overlaybg"></div>
    </div>
   
    
@@ -50,9 +51,9 @@
 
         
           <form id="contact-form" method="post" action="contact-form-handler.php">
-           <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+           <input id="name" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
            
-              <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+              <input id="email" name="email" type="email" class="form-control" placeholder="Your Email" required><br>
               
                  <textarea id="message" name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
                  

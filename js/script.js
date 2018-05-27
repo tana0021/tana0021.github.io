@@ -253,8 +253,11 @@ function showSlides(n) {
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    
+ document.getElementById("overlaybg").style.display = "block";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+     document.getElementById("overlaybg").style.display = "none";
 }

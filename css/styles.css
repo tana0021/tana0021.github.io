@@ -68,6 +68,7 @@ display: block;
     animation-delay: 0s, 0.2s;
 }
 
+
 .bg {
     z-index: 0;
     position: absolute; 
@@ -179,10 +180,12 @@ display: block;
 }
 
 .tryform {
-    height: 1100px;
+    z-index:0;
+    height: 00px;
     width: 100%;
     position: relative;
     top: 90px;
+    background-color: aqua;
 }
 
 .form {
@@ -292,6 +295,7 @@ form {
 
 @media only screen and (max-width: 1024px) {
     
+    
     .email {
     z-index: 1;
     position: relative;
@@ -338,15 +342,7 @@ form {
     letter-spacing: 2.6vw;
 }
     
-    .test {
-        z-index: 0;
-        height: 600px;
-        width: 100%;
-        position: relative; 
-        background-color: aqua;
-        top: 90px;
-    }
-    
+
     form {
     opacity: 0;
         position: absolute;
@@ -448,6 +444,18 @@ form {
     user-select: none;
     letter-spacing: 2.6vw;
     text-align: center;
+}
+    
+    #overlaybg {
+    display: none;
+    z-index: 0;
+    position: fixed; 
+    margin-top: 0px;
+    height: 100%;
+    top: 90px;
+    width: 100%; 
+    background-color: black;
+    opacity: 0.5;
 }
     
 }
