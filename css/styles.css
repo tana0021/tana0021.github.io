@@ -193,7 +193,7 @@ display: block;
     width: 55%;
     margin-right: -40px;
     top: 80px;
-    animation: position6 1s ease forwards, opacity 1s forwards;
+    animation: position 1s ease forwards, opacity 1s forwards;
     text-align: center;
     float: right;
    
@@ -254,7 +254,7 @@ form {
         width: 600px;
         top: 300px;
     background: transparent; 
-    animation: position6 1s ease forwards, opacity 1s forwards; 
+    animation: position 1s ease forwards, opacity 1s forwards; 
     animation-delay: 0s;
     }
 
@@ -315,10 +315,10 @@ form {
     height: 100px;
     width: 100px;
     position: relative;
-    top: -140px;
+    top: -200px;
         right: 64%;
-    animation: position6 1.1s ease forwards, opacity 1s forwards;
-    animation-delay: 0.3s;
+    animation: position 1.1s ease forwards, opacity 1s forwards;
+    animation-delay: 0s;
     text-align: center;
    
 }
@@ -354,10 +354,10 @@ form {
   flex-wrap: wrap;
         left: 16%;
         width: 70%;
-        top: 200px;
+        top: 140px;
     background: transparent; 
-    animation: position6 1s ease forwards, opacity 0.5s forwards; 
-    animation-delay: 0.4s;
+    animation: position 1s ease forwards, opacity 0.5s forwards; 
+    animation-delay: 0s;
     }
 
     .form-control {
@@ -1864,10 +1864,11 @@ display: block;
      font-family: 'Source Sans Pro', sans-serif;
     padding: 0px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 6px;
     color: #ff9600;
     display: block;
+        margin-top: 35px;
     transition: 0.3s;
     height: 0vh;
 }
