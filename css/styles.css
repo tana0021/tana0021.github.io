@@ -1753,13 +1753,14 @@ display: block;
     top: 90px;
     left: 00px;
     background-color: #f2f2f2; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: scroll;
+    overflow-y: visible;/* Disable horizontal scroll */
     padding-top: 10px; /* Place content 60px from the top */
     transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
     opacity: 0.97;
 }
 
-.sidenav a {
+.sidenav a { 
      font-family: 'Source Sans Pro', sans-serif;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -1767,7 +1768,8 @@ display: block;
     letter-spacing: 6px;
     color: #ff9600;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    height: 3vh;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
