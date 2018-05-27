@@ -192,7 +192,7 @@ display: block;
     height: 200px;
     width: 55%;
     margin-right: -40px;
-    top: 80px;
+    top: 50px;
     animation: position 1s ease forwards, opacity 1s forwards;
     text-align: center;
     float: right;
@@ -252,7 +252,7 @@ form {
         position: absolute; 
         left: 46%;
         width: 600px;
-        top: 300px;
+        top: 270px;
     background: transparent; 
     animation: position 1s ease forwards, opacity 1s forwards; 
     animation-delay: 0s;
@@ -1872,6 +1872,14 @@ display: block;
     transition: 0.3s;
     height: 0vh;
 }
+    
+    .hello2 {
+        margin-top: -190px;
+    }
+    
+    .aboutme2 {
+        margin-top: -140px;
+    }
     
 }
 
