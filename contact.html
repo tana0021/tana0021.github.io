@@ -14,15 +14,14 @@
 </head>
 <body>
 
-<div class="mask"> </div>
+
+    
 
     
     <div class="mask"><a href="about.html"><img src="img/logo.png" class="logoabout"></a>
-    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="hamburger" src="img/hamburger-button.png"></span>
    </div>
-   <div class="imagewrap"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="hamburger" src="img/hamburger-button.png"></span>
-    
-   </div>
+  
    
    <div class="navdiv">
           <ul>
@@ -33,7 +32,6 @@
             
           </ul>
       </div>
-      
 
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -42,13 +40,15 @@
   <a href="skills.html">SKILLS</a>
   <a href="contact.html">CONTACT</a>
 </div>
-      
+     
+
+      <div class="tryform"> 
      <div class="form">
       <div class="contact">CONTACT</div>
       <p class="email">katina.tanascon@gmail.com</p>
       </div> 
 
-         
+        
           <form id="contact-form" method="post" action="contact-form-handler.php">
            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
            
@@ -59,6 +59,7 @@
                    <input id="send" type="submit" class="form-control submit" value="SEND MESSAGE">  
           </form>
         
-    
+    </div>
+ 
 </body>
 </html>
