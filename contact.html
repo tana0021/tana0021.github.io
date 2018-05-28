@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,32 +43,31 @@
   <a href="contact.html">CONTACT</a>
 </div>
      
+ 
 
-      <div class="tryform"> 
+       <div class="tryform"> 
      <div class="form">
       <div class="contact">CONTACT</div>
       <p class="email">katina.tanascon@gmail.com</p>
       </div> 
 
         
-          <form action="contact.php" method="post">
-              Name: 
-              <input type="text" name="name" id="name">
-              <br>
-              Email: 
-              <input type="email" name="email" id="email">
-              <br>
-              Message: 
-              <br>
-              <textarea id="message" name="message">
-              </textarea>
-              <br>
-              <input type="button" name="submit" value="submit"
-              id="submit">
+          <form id="contact-form" method="post" action="contact-form-handler.php">
+           <input id="name" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+           
+              <input id="email" name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+              
+                 <textarea id="message" name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                 
+                   <input id="send" type="submit" class="form-control submit" value="SEND MESSAGE">  
           </form>
           
-        
-    </div>
+          
+      </div>
+      
+      
+
+
  
 </body>
 </html>
