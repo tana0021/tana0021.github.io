@@ -50,15 +50,21 @@
       </div> 
 
         
-          <form id="contact-form" method="post" action="contact.php">
-           <input id="name" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-           
-              <input id="email" name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-              
-                 <textarea id="message" name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-                 
-                   <input id="submit"
-                   name="submit" type="button" class="form-control submit" value="submit">  
+          <form action="contact.php" method="post">
+              Name: 
+              <input type="text" name="name" id="name">
+              <br>
+              Email: 
+              <input type="email" name="email" id="email">
+              <br>
+              Message: 
+              <br>
+              <textarea id="message" name="message">
+              </textarea>
+              <br>
+              <input type="button" name="submit" value="submit"
+              id="submit">
+          </form>
           </form>
         
     </div>

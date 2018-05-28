@@ -1,4 +1,5 @@
 <?php
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
@@ -13,4 +14,5 @@ Message:\n $message";
 mail($to, $subject, $body); 
 header("Location: http://tana0021.github.io/contact.html"); /* Redirect browser */
 exit();
+
 ?>
