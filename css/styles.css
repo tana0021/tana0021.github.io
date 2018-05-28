@@ -485,7 +485,7 @@ form {
     height: 100px;
     width: 100px;
     position: relative;
-    top: 00px;
+    top: 40px;
         right: 64%;
     animation: position 1.1s ease forwards, opacity 1s forwards;
     animation-delay: 0s;
@@ -513,7 +513,7 @@ form {
     height: 10px;
     width: 40%;
     font-family: cursive;
-    margin-top: 15px;
+    margin-top: -35px;
     margin-left: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -568,7 +568,7 @@ s
     .gmail {
    
     right: 70%; 
-    top: 160px;
+    top: 145px;
     height: 29px;
 }
 
@@ -576,7 +576,7 @@ s
     
     
     right: 70%; 
-    top:24px;
+    top:154px;
     height: 29px;
 }
 
@@ -587,7 +587,7 @@ s
     height: 10px;
     width: 40%;
     font-family: cursive;
-    margin-top: 0px;
+    margin-top: 130px;
     margin-left: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -2028,6 +2028,21 @@ display: block;
     .aboutme2 {
         margin-top: -140px;
     }
+    
+       .form {
+    opacity: 0;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 40px;
+        right: 64%;
+    animation: position 1.1s ease forwards, opacity 1s forwards;
+    animation-delay: 0s;
+    text-align: center;
+   
+}
+    
+    
     
 }
 
