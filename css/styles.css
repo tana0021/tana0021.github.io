@@ -195,7 +195,7 @@ display: block;
     height: 200px;
     width: 55%;
     margin-right: -40px;
-    top: 50px;
+    top: 260px;
     animation: position 1s ease forwards, opacity 1s forwards;
     text-align: center;
     float: right;
@@ -220,7 +220,7 @@ display: block;
     width: 600px;
     font-size: 27vw;
     padding-right: 40%;
-    font-size: 5vw;
+    font-size: 94px;
     user-select: none;
     letter-spacing: 2vw;
     text-align: center;
@@ -233,13 +233,44 @@ display: block;
     height: 10px;
     font-family: cursive;
     margin-top: 130px;
-    margin-left: -7px;
+    margin-left: -67px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
     width: 600px;
     font-size: 19px;
     user-select: none;
-    letter-spacing: 4.4px;
+    letter-spacing: 0.2vw;
+    text-align: center;
+}
+
+.gmail {
+    position: relative;
+    right: 50%; 
+    top: 200px;
+    height: 70px;
+}
+
+.linkedin {
+    position: relative;
+    right: 50%; 
+    top:40px;
+    height: 70px;
+}
+
+.linked {
+    z-index: 1;
+    position: relative;
+    opacity: 1;
+    height: 10px;
+    font-family: cursive;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FF9600;
+    width: 600px;
+    font-size: 19px;
+    user-select: none;
+    letter-spacing: 0.2vw;
     text-align: center;
 }
 
@@ -293,6 +324,7 @@ form {
     color: #ff9600;
 } 
 
+
 @media only screen and (max-width: 1024px) {
     
     
@@ -319,7 +351,7 @@ form {
     height: 100px;
     width: 100px;
     position: relative;
-    top: -200px;
+    top: 200px;
         right: 64%;
     animation: position 1.1s ease forwards, opacity 1s forwards;
     animation-delay: 0s;
@@ -328,18 +360,17 @@ form {
 }
     
     .contact {
-        top: 130px;
-        left: 5%;
+        top: 70px;
     position: relative;
     opacity: 1;
-    height: 300px;
+    height: 70px;
     font-family: cursive;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
-    width: 400px;
-    font-size: 32px;
+    width: 100%;
+    font-size: 52px;
     user-select: none;
-    letter-spacing: 2.6vw;
+    letter-spacing: 22px;
 }
     
 
@@ -381,9 +412,86 @@ form {
     color: #ff9600;
 } 
     
+    .email {
+    z-index: 3;
+        display: inline-block;
+    position: relative;
+    opacity: 1;
+    height: 10px;
+    width: 40%;
+    font-family: cursive;
+    margin-top: -230px;
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FF9600;
+    width: 100%; 
+    font-size: 1.8vw;
+    font-size: 21px;
+    user-select: none;
+    letter-spacing: 0.6vw;
+    text-align: center;
+}
+    
+        .gmail {
+    position: relative;
+    right: 100%; 
+    top: 160px;
+    height: 59px;
 }
 
-@media only screen and (max-width: 1024px) { 
+    .linkedin {
+        
+    right: 100%; 
+    top:160px;
+    height: 59px;
+}
+
+.linked {
+    z-index: 3;
+        display: inline-block;
+    opacity: 1;
+    height: 10px;
+    width: 40%;
+    font-family: cursive;
+    margin-top: 110px;
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FF9600;
+    width: 100%; 
+    font-size: 1.8vw;
+    font-size: 14px;
+    user-select: none;
+    letter-spacing: 0.36vw;
+    text-align: center;
+}
+        #overlaybg {
+    display: none;
+    z-index: 8;
+    position: fixed; 
+    margin-top: 0px;
+    height: 100%;
+    top: 90px;
+    width: 100%; 
+    background-color: black;
+    opacity: 0.5;
+}
+    
+}
+
+@media only screen and (max-width: 500px) { 
+    
+    .form {
+    opacity: 0;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 00px;
+        right: 64%;
+    animation: position 1.1s ease forwards, opacity 1s forwards;
+    animation-delay: 0s;
+    text-align: center;
+   
+}
 
 #send {
     border: solid #ff9600 0px;
@@ -401,12 +509,11 @@ form {
     
     .email {
     z-index: 3;
-    position: relative;
     opacity: 1;
     height: 10px;
     width: 40%;
     font-family: cursive;
-    margin-top: -230px;
+    margin-top: 15px;
     margin-left: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -430,12 +537,12 @@ form {
     }
     
      .contact {
-    position: relative;
+s
     opacity: 1;
-    height: 300px;
+    height: 40px;
     width: 40%;
     font-family: cursive;
-    margin-top: 120px;
+    margin-top: 20px;
          margin-left: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FF9600;
@@ -448,7 +555,7 @@ form {
     
     #overlaybg {
     display: none;
-    z-index: 0;
+    z-index: 8;
     position: fixed; 
     margin-top: 0px;
     height: 100%;
@@ -458,6 +565,39 @@ form {
     opacity: 0.5;
 }
     
+    .gmail {
+   
+    right: 70%; 
+    top: 160px;
+    height: 29px;
+}
+
+.linkedin {
+    
+    
+    right: 70%; 
+    top:24px;
+    height: 29px;
+}
+
+.linked {
+    z-index: 3;
+        display: inline-block;
+    opacity: 1;
+    height: 10px;
+    width: 40%;
+    font-family: cursive;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FF9600;
+    width: 100%; 
+    font-size: 1vw;
+    font-size: 11px;
+    user-select: none;
+    letter-spacing: 0.2vw;
+    text-align: center;
+}
 }
 
 
@@ -840,7 +980,7 @@ ul li a:active {
 }
 
 .mask {
-    z-index: 4;
+    z-index: 9;
     position: fixed;
     top: 0px;
     opacity: 0;
@@ -1089,6 +1229,7 @@ clear: both;
        display: none;
     }
     .mask {
+        z-index: 10;
         opacity: 0;
         height: 90px;
         width: 100%;
@@ -1753,7 +1894,7 @@ display: block;
 
 .sidenav {
     display: none;
-    z-index: 19;
+    z-index: 10;
     height: 100%; /* 100% Full-height */
     width: 200px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -1827,7 +1968,7 @@ display: block;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 19; /* Stay on top */
+    z-index: 10; /* Stay on top */
     top: 90px;
     left: 00px;
     background-color: #f2f2f2; /* Black*/
