@@ -704,8 +704,8 @@ input[type=range]::-webkit-slider-thumb{
     
     .description1 {
          margin: 0 auto;
-        position: fixed; 
-        top: 650px;
+        position: relative; 
+        top: 20px;
         width: 80vw;
         margin-left: 250px;
     }
@@ -761,11 +761,10 @@ input[type=range]::-webkit-slider-thumb{
         font-size: 12px;
     }
     
-    #videos {
-        width: 100%;
-        position: relative;
-        right: 290px;
-        top: 560px;
+    #videos {    
+        position: absolute;
+        top: 950px;
+        right: 90px;
         
     }
     
@@ -774,7 +773,7 @@ input[type=range]::-webkit-slider-thumb{
     position: absolute;
     height: 80px;
     margin: 5px;
-        margin-left: -70px;
+        margin-left: -130px;
 }
 
 #thumbnailpic:hover {
@@ -782,7 +781,7 @@ input[type=range]::-webkit-slider-thumb{
     position: absolute;
     height: 81px;
     margin: 5px;
-     margin-left: -70px;
+     margin-left: -130px;
     animation: hover 0.5s forwards; 
 }
 
@@ -791,7 +790,7 @@ input[type=range]::-webkit-slider-thumb{
     position: absolute;
     height: 80px;
     margin: 5px;
-    margin-left: 85px; 
+    margin-left: 12px; 
     top: 14px;
 }
 
@@ -799,10 +798,24 @@ input[type=range]::-webkit-slider-thumb{
     z-index: 8;
     position: absolute;
     height: 81px;
-    top: 40px;
    margin: 5px;
+    margin-left: 12px; 
     top: 14px;
-     margin-left: 85px;
+    animation: hover 0.5s forwards; 
+}
+    
+    #thumbnailpic3 {
+        position: absolute; 
+        top: -91px; 
+        margin-left: 155px; 
+    }
+    
+    #thumbnailpic3:hover {
+    z-index: 8;
+    position: absolute;
+    height: 81px;
+   top: -91px; 
+        margin-left: 155px; 
     animation: hover 0.5s forwards; 
 }
     
@@ -814,13 +827,92 @@ input[type=range]::-webkit-slider-thumb{
         width: 100%;
         position: fixed;
         right: 90px;
-        top:920px;
+        top:1020px;
      height: 150px;
         
     }
+    
+
+    
+
+}
+
+@media only screen and (max-width: 500px) { 
+    
+     
+ #videos {
+        width: 300px;
+        position: absolute;
+        right:36%;
+        top: 980px;
+     height: 100px;
+        
+    }
+    
+    #thumbnailpic{
+        left: 240px;
+        height: 150px;
+    }
+    
+      #thumbnailpic:hover {
+    z-index: 8;
+    position: absolute;
+    left: 240px;
+        height: 150px;
+    animation: hover 0.5s forwards; 
+}
+    
+    #thumbnailpic2{
+        height: 150px;
+        top: 190px;
+        left: 96px;
+        display: block; 
+        
+    }
+    
+      #thumbnailpic2:hover {
+    z-index: 8;
+    position: absolute;
+   height: 150px;
+        top: 190px;
+        left: 96px;
+    animation: hover 0.5s forwards; 
+}
+    
+    
+    #thumbnailpic3{
+        position: relative;
+        display:block; 
+        top: 240px;
+        left: -53px;
+        height: 150px;
+        
+    }
+    
+      #thumbnailpic3:hover {
+    z-index: 8;
+          top: 259px;
+        left: -47px;
+        height: 150px;
+    
+    animation: hover 0.5s forwards; 
+}
+    
+   
+    
+
 }
 
 @media only screen and (max-width: 360px) { 
+    
+    #videos {
+        width: 100%;
+        position: relative;
+        right: 290px;
+        top: 750px;
+     height: 150px;
+        
+    }
 
     #div1 {
         position: absolute;
@@ -850,6 +942,30 @@ input[type=range]::-webkit-slider-thumb{
         height: 50px;
     }
     
+    #thumbnailpic2 {
+        top: 10px;
+        height: 50px;
+    }
+    
+    #thumbnailpic2:hover {
+        top: 10px;
+        height: 50px;
+    }
+    
+    #thumbnailpic3 {
+        position: relative; 
+        top: -90px;
+        left: -120px;
+        height: 100px;
+    }
+    
+    #thumbnailpic3:hover {
+        position: relative; 
+        top: -90px;
+        left: -120px;
+        height: 100px;
+    }
+    
       .play-icon {
     z-index: 9;
     position: fixed;
@@ -869,14 +985,6 @@ input[type=range]::-webkit-slider-thumb{
     cursor: pointer;
 }
     
-    #videos {
-        width: 100%;
-        position: relative;
-        right: 290px;
-        top: 760px;
-     height: 150px;
-        
-    }
     
 }
 
