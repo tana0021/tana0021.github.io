@@ -6,6 +6,7 @@ body {
 
 
 
+
 .blackscreen {
     position: relative; 
     height: 400px;
@@ -226,6 +227,112 @@ height: 5vh;
     letter-spacing: 1px
 }
 
+/*----------------info4----------*/
+
+  #div5 {
+     display: none;
+    position: absolute;
+    top: 690px;
+    height: 50px;
+    width: 100%;
+    right: 280px;
+    margin: 0 auto;
+    text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #ff9600;
+    font-weight: bold;
+}
+
+.hr5{
+      position: relative;
+    left: 170px;
+    color: #ff9600;
+    width: 542px;
+}
+
+.description5{
+    position: relative;
+    width: 500px;
+    margin-left: 45%;
+    font-size: 14px;
+    color: darkgrey; 
+    letter-spacing: 1px;
+        text-align: left;
+    font-weight: 100;
+    
+}
+
+.date5{
+   z-index: 1;
+     position: relative;
+    top: -145px;
+    left: 370px;
+    font-size: 15px;
+    color: black; 
+    letter-spacing: 1px
+}
+
+.title5 {
+    margin-left:50px; 
+}
+
+/*--------------info3-------------*/
+
+#div3 {
+     display:none;
+    position: absolute;
+    top: 690px;
+    height: 50px;
+    width: 100%;
+    right: 280px;
+        margin: 0 auto;
+    text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #ff9600;
+    font-weight: bold;
+}
+
+.hr3{
+      position: relative;
+    left: 170px;
+    color: #ff9600;
+    width: 542px;
+}
+
+.description3{
+    position: relative;
+    width: 500px;
+    margin-left: 45%;
+    font-size: 14px;
+    color: darkgrey; 
+    letter-spacing: 1px;
+        text-align: left;
+    font-weight: 100;
+    
+}
+
+.date3{
+   z-index: 1;
+     position: relative;
+    top: -236px;
+    left: 370px;
+    font-size: 15px;
+    color: black; 
+    letter-spacing: 1px
+}
+
+#thumbnail3 { 
+    background: none;
+    border: none;
+}
+
+/*-------------info4-------------------*/
+
+
 /*--------------thumbnails--------*/
 
 .thumbnail-container {
@@ -253,7 +360,14 @@ height: 5vh;
 #thumbnail2 { 
     background: none;
     border: none; 
+
 }
+
+#thumbnail5 { 
+    background: none;
+    border: none;
+}
+
 
 
 #thumbnailpic {
@@ -286,6 +400,25 @@ height: 5vh;
     height: 80px;
    margin: 110px;
      margin-left: -5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+    
+}
+
+#thumbnailpic3 {
+    top: 116px;
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+    margin: 110px;
+    margin-left: -21px; 
+}
+
+#thumbnailpic3:hover {
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+   margin: 110px;
+     margin-left: -21px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
     
 }
@@ -776,7 +909,7 @@ input[type=range]::-webkit-slider-thumb{
 
 .date3 { z-index: 1;
      position: relative;
-    margin-top: -125px;
+    margin-top: 125px;
     left: 370px;
     font-size: 15px;
     color: black; 
@@ -1488,3 +1621,5 @@ input[type=range]::-webkit-slider-thumb{
     .portfoliopic {
     height: 65vw;
 }
+    
+  
