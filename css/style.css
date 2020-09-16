@@ -363,7 +363,31 @@ height: 5vh;
 
 }
 
+#thumbnail3 { 
+    background: none;
+    border: none; 
+
+}
+
+#thumbnail8 { 
+    background: none;
+    border: none; 
+
+}
+
 #thumbnail5 { 
+    background: none;
+    border: none;
+}
+
+}
+
+#thumbnail6 { 
+    background: none;
+    border: none;
+}
+
+#thumbnail9 { 
     background: none;
     border: none;
 }
@@ -419,6 +443,44 @@ height: 5vh;
     height: 80px;
    margin: 110px;
      margin-left: -21px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+    
+}
+
+#thumbnailpic4 {
+    top: 220px;
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+    margin: 110px;
+    margin-left: -39px; 
+}
+
+#thumbnailpic4:hover {
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+   margin: 110px;
+     margin-left: -39px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+    
+}
+
+#thumbnailpic5 {
+    top: 220px;
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+    margin: 217px;
+    margin-left: -55px; 
+}
+
+#thumbnailpic5:hover {
+    z-index: 18;
+    position: absolute;
+    height: 80px;
+   margin: 217px;
+     margin-left: -55px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
     
 }
@@ -708,6 +770,8 @@ input[type=range]::-webkit-slider-thumb{
         top: 20px;
         width: 80vw;
         margin-left: 250px;
+         display: block;
+        margin-bottom:40px;
     }
     .date {
         position: absolute;
@@ -752,6 +816,9 @@ input[type=range]::-webkit-slider-thumb{
         top: 10px;
         width: 80vw;
         margin-left: 250px;
+         display: block;
+        margin-bottom:40px;
+        
     }
     .date2 {
         position: absolute;
@@ -793,10 +860,12 @@ input[type=range]::-webkit-slider-thumb{
     
     .description5 {
         margin: 0 auto;
-        position: relative; 
+        position: relative;
         top: 10px;
         width: 80vw;
         margin-left: 250px;
+        display: block;
+        margin-bottom:40px;
     }
     
     .date5 {
@@ -808,7 +877,7 @@ input[type=range]::-webkit-slider-thumb{
     }
     #videos {    
         position: absolute;
-        top: 950px;
+        top: 960px;
         right: 90px;
         
     }
@@ -864,23 +933,52 @@ input[type=range]::-webkit-slider-thumb{
     animation: hover 0.5s forwards; 
 }
     
+    #thumbnailpic4 {
+    z-index: 10;
+    position: absolute;
+    height: 81px;
+    margin:1px;
+    margin-left: -178px;  
+    top: 114px; 
 }
 
-@media only screen and (max-width: 618px) { 
+#thumbnailpic4:hover {
+    z-index: 10;
+    position: absolute;
+    height: 81px;
+   margin: 1px;
+    margin-left: -178px;  
+    top: 114px;
     
- #videos {
-        width: 100%;
-        position: fixed;
-        right: 90px;
-        top:1020px;
-     height: 150px;
-        
-    }
-    
-
-    
-
+    animation: hover 0.5s forwards; 
 }
+    
+     #thumbnailpic5 {
+    z-index: 6;
+    position: absolute;
+    height: 81px;
+    margin: 5px;
+    margin-left: -36px; 
+    top: 110px;
+}
+
+#thumbnailpic5:hover {
+    z-index: 6;
+    position: absolute;
+    height: 81px;
+   margin: 5px;
+    margin-left: -36px; 
+    top: 110px;
+    animation: hover 0.5s forwards; 
+}
+   
+    
+ 
+    
+    
+}
+
+
 
 @media only screen and (max-width: 500px) { 
     
@@ -896,7 +994,7 @@ input[type=range]::-webkit-slider-thumb{
         width: 300px;
         position: absolute;
         right:36%;
-        top: 980px;
+        top: 1020px;
      height: 100px;
         
     }
@@ -933,22 +1031,56 @@ input[type=range]::-webkit-slider-thumb{
     
     
     #thumbnailpic3{
-        position: relative;
-        display:block; 
-        top: 240px;
-        left: -53px;
+        position: absolute;
+        top: 260px;
+        left: -46px;
         height: 150px;
         
     }
     
       #thumbnailpic3:hover {
-    z-index: 8;
-          top: 259px;
-        left: -47px;
+          top: 260px;
+        left: -46px;
         height: 150px;
-    
     animation: hover 0.5s forwards; 
 }
+    
+    #thumbnailpic4 {
+        position: absolute; 
+        top: 550px;
+        left: 109px; 
+        margin: 0 auto;
+        height: 150px;
+    }
+    
+    #thumbnailpic4:hover {
+        position: absolute; 
+       top: 550px;
+        left: 109px; 
+        margin: 0 auto; 
+        height: 150px;
+    }
+    
+     #thumbnailpic5 {
+        position: absolute; 
+        top: 730px;
+        left: 109px; 
+        margin: 0 auto; 
+        height: 150px;
+        margin-bottom: 100px;
+    }
+    
+    #thumbnailpic5:hover {
+        position: absolute; 
+       top: 730px;
+        left: 109px; 
+        margin: 0 auto; 
+        height: 150px;
+        margin-bottom: 100px;
+    }
+    
+ 
+    
     
    
     
@@ -1031,6 +1163,7 @@ input[type=range]::-webkit-slider-thumb{
         margin: 0 auto; 
         height: 100px;
     }
+    
     
       .play-icon {
     z-index: 9;
